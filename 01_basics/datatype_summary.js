@@ -37,7 +37,38 @@ let myObj = {
 // datatype can be string, number, boolean, function, array or it can be object
 
 const myFucntion = function(){ // we can store function defination in variable 
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+
+// *****************************************************************************************************************************
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
+// In Stack values is stored if copied to other variable then the copy of that value is provided not the original value
+// In Heap value is stored and if copied to other then the original value is provided
+
+let myLaptopBefore = "HP Pavillion"
+
+let myLaptopAfter = myLaptopBefore;
+myLaptopAfter = "HP Victus"
+
+// console.log(myLaptopBefore);
+// console.log(myLaptopAfter);
+
+let userone = {
+    name : "Aamir Qazi",
+    email : "aamir@gmail.com"
+}
+
+let usertwo = userone
+
+usertwo.email = "qazi@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
