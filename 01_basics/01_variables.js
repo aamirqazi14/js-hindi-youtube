@@ -6,7 +6,7 @@ accountCity = "Nagpur" // Not Recommended
 
 accountId = 23 // Not Allowed
 
-accountEmail = "amir@gmai.com"
+accountEmail = "vscode@microsoft.com"
 accountPassword = "98765"
 accountCity = "Bangalore"
 

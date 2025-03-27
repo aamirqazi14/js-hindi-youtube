@@ -9,14 +9,14 @@ console.log(3
 console.log("Aamir")
 
 let name = "Aamir"
-let age = 26
+let age = 24
 let isloggedin = false
 
 // number => 2 to the power of 53
 // bigint (for big numbers like in stock market)
 // string => ""
 // boolean =>true/false
-// null => standalone value (mean you provide null instead of zero where required like in temp value)
+// null => standalone value (mean you provide null value instead of zero where required like in temp value)
 // undefined =>
 // symbol => unique (to uniquely identified)
 

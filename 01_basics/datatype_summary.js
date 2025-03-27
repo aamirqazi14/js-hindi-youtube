@@ -28,7 +28,7 @@ const bigNumber = 6463143131413144451n;
 
 // Array, objects, Functions
 
-const heros = ["Virat Kohli", "Phil Salt", "Krunal Pandya"];
+const players = ["Virat Kohli", "Phil Salt", "Krunal Pandya"];
 let myObj = {
     name : "Aamir",
     age : 22,
