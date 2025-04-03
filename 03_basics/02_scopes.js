@@ -10,7 +10,7 @@ if(true){
     let a = 10;
     const b = 20;
     var c = 30; // var is not limited to this block scope it will be accessible in global scope
-    console.log("Inside = ",a)
+    // console.log("Inside = ",a)
 }
 
 // console.log(a)
@@ -21,3 +21,44 @@ if(true){
 // In a script file, global variables belong to the **script scope** (not added to `window` in strict mode).  
 // In the browser console, global variables are attached to the `window` object by default.
  
+
+function one(){
+    const username = "Aamir"
+    
+    function two(){
+        const website = "youtube"
+        console.log(username)
+    }
+    // console.log(website)
+
+    two()
+}
+// one()
+
+if(true){
+    const username = "Aamir"
+    if(username === "Aamir"){
+        const website = " youtube"
+        // console.log(username + website)
+    }
+
+    // console.log(website)
+
+}
+// console.log(username);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// interesting
+
+
+// hoisting
+console.log(addone(5))
+function addone(num){
+    return num+1
+}
+
+
+console.log(addtwo(5))
+const addtwo = function(num){
+    return num+2
+}
