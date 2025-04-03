@@ -52,5 +52,4 @@
 
 // console.log(addTwo(5,8))
 
-// const myArray =  [1,2,3,4,5,6]
 
