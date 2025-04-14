@@ -13,7 +13,7 @@ accountCity = "Bangalore"
 console.log("accountEmail")
 console.log("accountPassword")
 console.log("accountCity")
-
+console.log("accountCity")
 console.table([accountId,accountEmail,accountPassword,accountCity])
 /*
     prefer not to use var, because  of issue in 
