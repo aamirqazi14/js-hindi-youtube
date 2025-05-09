@@ -8,34 +8,25 @@
      
         #blur{
             display: flex;
+            justify-content: center;           
+            align-items: center;             
             background: rgba(255, 255, 255, 0.1); 
             width: 350px;
             padding: 15px;
-            margin-top: 520px;
-            margin-left: 1100px;
-            justify-content: center;
-
-            align-items: center;
-  
+            margin: 520px auto 0 1000px;        
             backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
             mix-blend-mode: lighten;              
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         #clock{
-            display: flex;
-            position: relative;
-            z-index: 2;
-            font-size: 2rem;  
-            width: 200px;
+            font-size: 2rem;
             color: white; 
-            font-size: 45px;
             font-weight: bold;
             text-align: center;
-            width: 224px;
-            
-            
-            
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 2px;
         }
     </style>
 </head>ack
