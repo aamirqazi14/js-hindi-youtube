@@ -1,0 +1,40 @@
+.game{
+    /* background-color: rgb(240, 250, 255); */
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 435px;
+    height: 535px;
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    
+}
+.input{
+    font-size: 18px;
+    height: 42px;
+    padding: 9px 40px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.submit{
+    font-size: 17px;
+    height: 42px;
+    padding: 9px 40px;
+    width: 301px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(66 133 244);
+    color: white;
+    letter-spacing: 1px;
+    /* text-transform: capitalize; */
+}
